@@ -1,8 +1,8 @@
-// genero due numeri randomici e li associo a due variabili A e B
+// creo un array con numeri da 1 a n e li associo a due variabili A e B
 // comparo i due numeri A e B
 // se A > B vince A, se A < B vince B , altrimenti è un pareggio.
 
-var numeri = [1,2,3,4,5,6]; // numeri possibili su un dado a 6 facce
+var numeri = [1,2,3,4,5,6,7,8,9,10]; // numeri possibili su un dado a 10 facce
 var numeroA = numeri[Math.floor(Math.random() * numeri.length)]; // random number nell'array
 var numeroB = numeri[Math.floor(Math.random() * numeri.length)]; // random number nell'array
 // console.log('A = ' + numeroA);
