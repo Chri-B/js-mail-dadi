@@ -9,10 +9,16 @@ console.log(listaEmail);
 
 var emailUtente = prompt('Inserisci il tuo indirizzo email completo');
 
-// for (var i = 0; i < listaEmail.length; i++) {
-    if (emailUtente === listaEmail) {
-        console.log('Benvenuto');
+for (var i = 0; i < listaEmail.length; i++) {
+    if (emailUtente === listaEmail[i]) {
+        var entra = 1;
     } else {
-        console.log('Non puoi accedere');
+        var entra = 0;
     }
-// }
+}
+
+if (entra === 1) {
+    console.log('Benvenuto');
+} else {
+    console.log('Arrivederci');
+}
