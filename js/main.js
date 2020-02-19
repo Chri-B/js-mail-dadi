@@ -17,10 +17,10 @@ for (var i = 0; i < listaEmail.length; i++) {
     }
 }
 
-if (entra === 1) {
+if (entra === 1) { // se entra === 1 rendo visibile la sezione benvenuto
     document.getElementById('email-utente-in').innerHTML = emailUtente;
-    document.getElementsByClassName('benvenuto')[0].setAttribute('class','benvenuto visible');
-} else {
+    document.getElementsByClassName('benvenuto')[0].setAttribute('class','box benvenuto visible');
+} else { // altrimenti rendo visibile la sezione addio
     document.getElementById('email-utente-out').innerHTML = emailUtente;
-    document.getElementsByClassName('addio')[0].setAttribute('class','addio visible');
+    document.getElementsByClassName('addio')[0].setAttribute('class','box addio visible');
 }
