@@ -1,7 +1,39 @@
+body {
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
 .invisible {
     display: none;
 }
 
 .visible {
     display: block;
+}
+
+#draw {
+    color: blue;
+}
+
+#win {
+    color: rgb(45, 162, 46);
+}
+
+#lose {
+    color: rgb(157, 48, 24);
+}
+
+h3:first-of-type {
+    color: rgb(90, 25, 203);
+}
+
+h3:nth-of-type(2) {
+    color: rgb(184, 107, 37);
+}
+
+h3:nth-of-type(3) {
+    color: rgb(225, 240, 56);
+}
+
+h3:last-of-type {
+    color: lightgray;
 }

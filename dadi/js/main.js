@@ -7,8 +7,10 @@ var numeroA = numeri[Math.floor(Math.random() * numeri.length)]; // random numbe
 var numeroB = numeri[Math.floor(Math.random() * numeri.length)]; // random number nell'array
 // console.log('A = ' + numeroA);
 // console.log('B = ' + numeroB);
-document.getElementById('numero-a').innerHTML = numeroA;
-document.getElementById('numero-b').innerHTML = numeroB;
+
+document.getElementById('numero-a').innerHTML = numeroA; // mostro a monitor il numero estratto
+document.getElementById('numero-b').innerHTML = numeroB; // mostro a monitor il numero estratto
+
 // risultati del gioco
 if (numeroA > numeroB) {
     document.getElementById('vincitore').innerHTML = numeroA;
